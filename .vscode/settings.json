@@ -1,0 +1,40 @@
+{
+  "terminal.integrated.allowChords": true,
+  "terminal.integrated.sendKeybindingsToShell": true,
+
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [ "typescript" ],
+
+  "git.allowForcePush": true,
+  "git.useForcePushWithLease": true,
+  "git.allowNoVerifyCommit": true,
+  "git.autofetch": true,
+
+  "discord.enabled": true,
+  "discord.largeImage": "{lang}",
+  "discord.largeImageIdling": "Idling",
+  "discord.smallImage": "{app_name}",
+  "discord.detailsEditing": "📁 {dir_name}/{file_name}",
+  "discord.detailsDebugging": "📁 {dir_name}/{file_name}",
+  "discord.lowerDetailsEditing": "📝 {current_column}:{current_line}/{total_lines} ({file_size})",
+  "discord.lowerDetailsDebugging": "📝 {current_column}:{current_line}/{total_lines} ({file_size})",
+  "discord.lowerDetailsNoWorkspaceFound": "📝 {current_column}:{current_line}/{total_lines} ({file_size})",
+  "discord.detailsIdling": "{empty}",
+  "discord.lowerDetailsIdling": "{empty}",
+  "discord.removeRemoteRepository": false,
+  "discord.removeTimestamp": true,
+
+  "[markdown]": {
+    "editor.wordWrap": "off",
+  },
+}

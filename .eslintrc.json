@@ -1,0 +1,38 @@
+{
+  "overrides": [
+    {
+      "files": [ "*.ts" ],
+      "plugins": [ "@typescript-eslint" ],
+      "parser": "@typescript-eslint/parser",
+      "rules": {
+        "array-bracket-spacing": [ "error", "always" ],
+        "arrow-parens": [ "error" ],
+        "arrow-spacing": [ "error" ],
+        "comma-dangle": [ "error", { "arrays": "always-multiline", "objects": "always-multiline", "imports": "always-multiline", "exports": "always-multiline", "functions": "always-multiline" } ],
+        "block-spacing": [ "error" ],
+        "eqeqeq": [ "error", "always" ],
+        "func-call-spacing": [ "error", "never" ],
+        "key-spacing": [ "error" ],
+        "no-await-in-loop": [ "error" ],
+        "no-multi-spaces": [ "error" ],
+        "quotes": [ "error", "single", { "allowTemplateLiterals": true } ],
+        "semi-spacing": [ "error" ],
+        "semi-style": [ "error", "last" ],
+        "space-before-function-paren": [ "error" ],
+        "wrap-iife": [ "error", "inside" ],
+        "@typescript-eslint/array-type": [ "error", { "default": "array-simple", "readonly": "array-simple" } ],
+        "@typescript-eslint/brace-style": [ "error", "1tbs", { "allowSingleLine": true } ],
+        "@typescript-eslint/comma-spacing": [ "error" ],
+        "@typescript-eslint/indent": [ "error", 2 ],
+        "@typescript-eslint/object-curly-spacing": [ "error", "always" ],
+        "@typescript-eslint/keyword-spacing": [ "error", { "before": true, "after": true } ],
+        "@typescript-eslint/semi": [ "error", "always" ],
+        "@typescript-eslint/space-before-blocks": [ "error", "always" ],
+        "@typescript-eslint/space-infix-ops": [ "error" ],
+        "@typescript-eslint/typedef": [ "error", { "arrayDestructuring": true, "arrowParameter": true, "memberVariableDeclaration": false, "objectDestructuring": false, "parameter": true, "propertyDeclaration": true, "variableDeclaration": true, "variableDeclarationIgnoreFunction": true } ],
+        "@typescript-eslint/type-annotation-spacing": [ "error" ],
+        "@typescript-eslint/member-delimiter-style": [ "error", { "multiline": { "delimiter": "semi", "requireLast": true }, "singleline": { "delimiter": "semi", "requireLast": true }, "multilineDetection": "brackets" } ]
+      }
+    }
+  ]
+}

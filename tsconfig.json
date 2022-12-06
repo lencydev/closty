@@ -1,0 +1,49 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "require": [ "tsconfig-paths/register" ],
+  },
+  "tsc-alias": {
+    "verbose": false,
+    "resolveFullPaths": true,
+  },
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [ "ESNext", "ES6" ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "strict": true,
+    "strictNullChecks": false,
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "rootDir": "./src/",
+    "outDir": "./build/",
+    "paths": {
+      "Global": [ "./src/base/global" ],
+      "Debug": [ "./src/base/debug" ],
+
+      "Prototypes": [ "./src/base/prototypes" ],
+
+      "Root": [ "./src/base/interfaces/root/Root.ts" ],
+
+      "Config": [ "./src/base/config/export.ts" ],
+
+      "Context": [ "./src/base/interfaces/context/Context.ts" ],
+      "Logger": [ "./src/base/interfaces/logger/Logger.ts" ],
+      "Client": [ "./src/base/Client.ts" ],
+
+      "App": [ "./src/base/structures/App.ts" ],
+      "Category": [ "./src/base/structures/Category.ts" ],
+      "Command": [ "./src/base/structures/Command.ts" ],
+      "Event": [ "./src/base/structures/Event.ts" ],
+      "Handler": [ "./src/base/structures/Handler.ts" ],
+
+      "Schemas": [ "./src/base/schemas/export.ts" ],
+    },
+  },
+  "include": [ "./src/" ],
+  "exclude": [ "./node_modules/", "./build/" ],
+}

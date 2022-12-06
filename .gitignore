@@ -1,0 +1,18 @@
+# Environment Variables
+.env
+
+# Production
+/build/
+
+# Dependencies
+/node_modules/
+/yarn.lock
+
+# Logs
+/*.log
+
+# Changelogs
+/src/base/changelogs/
+
+# Test
+/src/test.ts
